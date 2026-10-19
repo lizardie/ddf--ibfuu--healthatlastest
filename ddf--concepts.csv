@@ -45,4 +45,4 @@ medel_dispink_real2024_20_64,measure,,"Genomsnittlig disponibel inkomst (20-64 �
 median_dispink_real2024_20_64,measure,,"Median disponibel inkomst (20-64 år, tkr, 2024 års priser)",Median disponibel inkomst i 1000-tals kronor för invånare mellan 20-64 år i 2024 års priser. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,ibf_socio,,,Median disponibel inkomst,Median disponibel inkomst,,
 andel_eftergymnasial_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel invånare mellan 25-64 år med eftergymnasial utbildning.,ibf_socio,,,Eftergymnasial utbildning,Eftergymnasial utbildning,,share
 dodlighet,measure,,Dödlighet,Andel invånare vid slutet av föregående år som avlider under kalenderåret.,ibf_health,,,Dödlighet,Dödlighet,,share
-mobility_rate,measure,,Mobility rate from mobile phones,,ibf_health,,,mobility,mobility,,share
+mobility_rate,measure,,Mobility rate from mobile phones,mobility,ibf_health,,,mobility,mobility,,share
