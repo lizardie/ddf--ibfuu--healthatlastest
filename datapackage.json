@@ -1,0 +1,2535 @@
+{
+    "name": "ddf--ibfuu--boendebarometer",
+    "language": {
+        "id": "en"
+    },
+    "title": "ddf--ibfuu--boendebarometer",
+    "description": "",
+    "author": "",
+    "license": "",
+    "created": "2026-08-31T14:53:18.625485+00:00",
+    "resources": [
+        {
+            "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "concept_type"
+                    },
+                    {
+                        "name": "domain"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "description"
+                    },
+                    {
+                        "name": "tags"
+                    },
+                    {
+                        "name": "drill_up"
+                    },
+                    {
+                        "name": "color"
+                    },
+                    {
+                        "name": "name_short"
+                    },
+                    {
+                        "name": "name_catalog"
+                    },
+                    {
+                        "name": "scales"
+                    },
+                    {
+                        "name": "format"
+                    }
+                ],
+                "primaryKey": [
+                    "concept"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_0_17--by--kommun--year",
+            "path": "ddf--datapoints--andel_0_17--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_0_17"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_0_17--by--regso--year",
+            "path": "ddf--datapoints--andel_0_17--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_0_17"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_65_plus--by--kommun--year",
+            "path": "ddf--datapoints--andel_65_plus--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_65_plus"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_65_plus--by--regso--year",
+            "path": "ddf--datapoints--andel_65_plus--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_65_plus"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_adhd_lakemedel--by--kommun--year",
+            "path": "ddf--datapoints--andel_adhd_lakemedel--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_adhd_lakemedel"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_adhd_lakemedel--by--regso--year",
+            "path": "ddf--datapoints--andel_adhd_lakemedel--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_adhd_lakemedel"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_adhd_lakemedel_kvinnor--by--kommun--year",
+            "path": "ddf--datapoints--andel_adhd_lakemedel_kvinnor--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_adhd_lakemedel_kvinnor"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_adhd_lakemedel_kvinnor--by--regso--year",
+            "path": "ddf--datapoints--andel_adhd_lakemedel_kvinnor--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_adhd_lakemedel_kvinnor"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_adhd_lakemedel_man--by--kommun--year",
+            "path": "ddf--datapoints--andel_adhd_lakemedel_man--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_adhd_lakemedel_man"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_adhd_lakemedel_man--by--regso--year",
+            "path": "ddf--datapoints--andel_adhd_lakemedel_man--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_adhd_lakemedel_man"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_antidepressiv--by--kommun--year",
+            "path": "ddf--datapoints--andel_antidepressiv--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_antidepressiv"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_antidepressiv--by--regso--year",
+            "path": "ddf--datapoints--andel_antidepressiv--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_antidepressiv"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_antidepressiv_kvinnor--by--kommun--year",
+            "path": "ddf--datapoints--andel_antidepressiv_kvinnor--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_antidepressiv_kvinnor"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_antidepressiv_kvinnor--by--regso--year",
+            "path": "ddf--datapoints--andel_antidepressiv_kvinnor--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_antidepressiv_kvinnor"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_antidepressiv_man--by--kommun--year",
+            "path": "ddf--datapoints--andel_antidepressiv_man--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_antidepressiv_man"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_antidepressiv_man--by--regso--year",
+            "path": "ddf--datapoints--andel_antidepressiv_man--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_antidepressiv_man"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_eftergymnasial_25_64--by--kommun--year",
+            "path": "ddf--datapoints--andel_eftergymnasial_25_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_eftergymnasial_25_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_eftergymnasial_25_64--by--regso--year",
+            "path": "ddf--datapoints--andel_eftergymnasial_25_64--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_eftergymnasial_25_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_invand--by--kommun--year",
+            "path": "ddf--datapoints--andel_invand--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_invand"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_invand--by--regso--year",
+            "path": "ddf--datapoints--andel_invand--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_invand"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_invbak--by--kommun--year",
+            "path": "ddf--datapoints--andel_invbak--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_invbak"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_invbak--by--regso--year",
+            "path": "ddf--datapoints--andel_invbak--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_invbak"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_kvinnor--by--kommun--year",
+            "path": "ddf--datapoints--andel_kvinnor--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_kvinnor"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_kvinnor--by--regso--year",
+            "path": "ddf--datapoints--andel_kvinnor--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_kvinnor"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_oppenvard--by--kommun--year",
+            "path": "ddf--datapoints--andel_oppenvard--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_oppenvard"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_oppenvard--by--regso--year",
+            "path": "ddf--datapoints--andel_oppenvard--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_oppenvard"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_oppenvard_kvinnor--by--kommun--year",
+            "path": "ddf--datapoints--andel_oppenvard_kvinnor--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_oppenvard_kvinnor"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_oppenvard_kvinnor--by--regso--year",
+            "path": "ddf--datapoints--andel_oppenvard_kvinnor--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_oppenvard_kvinnor"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_oppenvard_man--by--kommun--year",
+            "path": "ddf--datapoints--andel_oppenvard_man--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_oppenvard_man"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_oppenvard_man--by--regso--year",
+            "path": "ddf--datapoints--andel_oppenvard_man--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_oppenvard_man"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_slutenvard--by--kommun--year",
+            "path": "ddf--datapoints--andel_slutenvard--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_slutenvard"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_slutenvard--by--regso--year",
+            "path": "ddf--datapoints--andel_slutenvard--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_slutenvard"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_slutenvard_kvinnor--by--kommun--year",
+            "path": "ddf--datapoints--andel_slutenvard_kvinnor--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_slutenvard_kvinnor"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_slutenvard_kvinnor--by--regso--year",
+            "path": "ddf--datapoints--andel_slutenvard_kvinnor--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_slutenvard_kvinnor"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_slutenvard_man--by--kommun--year",
+            "path": "ddf--datapoints--andel_slutenvard_man--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_slutenvard_man"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_slutenvard_man--by--regso--year",
+            "path": "ddf--datapoints--andel_slutenvard_man--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_slutenvard_man"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_sysselsatta_20_64--by--kommun--year",
+            "path": "ddf--datapoints--andel_sysselsatta_20_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_sysselsatta_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_sysselsatta_20_64--by--regso--year",
+            "path": "ddf--datapoints--andel_sysselsatta_20_64--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_sysselsatta_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--befolkning--by--kommun--year",
+            "path": "ddf--datapoints--befolkning--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "befolkning"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--befolkning--by--regso--year",
+            "path": "ddf--datapoints--befolkning--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "befolkning"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--dodlighet--by--kommun--year",
+            "path": "ddf--datapoints--dodlighet--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "dodlighet"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--dodlighet--by--regso--year",
+            "path": "ddf--datapoints--dodlighet--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "dodlighet"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--medel_dispink_real2024_20_64--by--kommun--year",
+            "path": "ddf--datapoints--medel_dispink_real2024_20_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "medel_dispink_real2024_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--medel_dispink_real2024_20_64--by--regso--year",
+            "path": "ddf--datapoints--medel_dispink_real2024_20_64--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "medel_dispink_real2024_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--medel_inkomst_real2024_20_64--by--kommun--year",
+            "path": "ddf--datapoints--medel_inkomst_real2024_20_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "medel_inkomst_real2024_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--medel_inkomst_real2024_20_64--by--regso--year",
+            "path": "ddf--datapoints--medel_inkomst_real2024_20_64--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "medel_inkomst_real2024_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--medelalder--by--kommun--year",
+            "path": "ddf--datapoints--medelalder--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "medelalder"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--medelalder--by--regso--year",
+            "path": "ddf--datapoints--medelalder--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "medelalder"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--median_dispink_real2024_20_64--by--kommun--year",
+            "path": "ddf--datapoints--median_dispink_real2024_20_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "median_dispink_real2024_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--median_dispink_real2024_20_64--by--regso--year",
+            "path": "ddf--datapoints--median_dispink_real2024_20_64--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "median_dispink_real2024_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--median_inkomst_real2024_20_64--by--kommun--year",
+            "path": "ddf--datapoints--median_inkomst_real2024_20_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "median_inkomst_real2024_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--median_inkomst_real2024_20_64--by--regso--year",
+            "path": "ddf--datapoints--median_inkomst_real2024_20_64--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "median_inkomst_real2024_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geo--deso",
+            "path": "ddf--entities--geo--deso.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "deso"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "region"
+                    },
+                    {
+                        "name": "rike"
+                    },
+                    {
+                        "name": "deso_type"
+                    },
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "is--deso"
+                    }
+                ],
+                "primaryKey": [
+                    "deso"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geo--kommun",
+            "path": "ddf--entities--geo--kommun.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "region"
+                    },
+                    {
+                        "name": "rike"
+                    },
+                    {
+                        "name": "is--kommun"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geo--region",
+            "path": "ddf--entities--geo--region.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "region"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "rike"
+                    },
+                    {
+                        "name": "is--region"
+                    }
+                ],
+                "primaryKey": [
+                    "region"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geo--regso",
+            "path": "ddf--entities--geo--regso.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "region"
+                    },
+                    {
+                        "name": "rike"
+                    },
+                    {
+                        "name": "is--regso"
+                    }
+                ],
+                "primaryKey": [
+                    "regso"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geo--rike",
+            "path": "ddf--entities--geo--rike.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "rike"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "is--rike"
+                    }
+                ],
+                "primaryKey": [
+                    "rike"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--tag",
+            "path": "ddf--entities--tag.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "tag"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "parent"
+                    }
+                ],
+                "primaryKey": [
+                    "tag"
+                ]
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "color",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "description",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "domain",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "drill_up",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "format",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name_catalog",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name_short",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "scales",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "tags",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            }
+        ],
+        "entities": [
+            {
+                "primaryKey": [
+                    "deso"
+                ],
+                "value": "deso_type",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "deso_type",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "deso"
+                ],
+                "value": "is--deso",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "is--deso",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "is--kommun",
+                "resources": [
+                    "ddf--entities--geo--kommun"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun"
+                ],
+                "value": "is--kommun",
+                "resources": [
+                    "ddf--entities--geo--kommun"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "is--region",
+                "resources": [
+                    "ddf--entities--geo--region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "region"
+                ],
+                "value": "is--region",
+                "resources": [
+                    "ddf--entities--geo--region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "is--regso",
+                "resources": [
+                    "ddf--entities--geo--regso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso"
+                ],
+                "value": "is--regso",
+                "resources": [
+                    "ddf--entities--geo--regso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "is--rike",
+                "resources": [
+                    "ddf--entities--geo--rike"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "rike"
+                ],
+                "value": "is--rike",
+                "resources": [
+                    "ddf--entities--geo--rike"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "deso"
+                ],
+                "value": "kommun",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "kommun",
+                "resources": [
+                    "ddf--entities--geo--deso",
+                    "ddf--entities--geo--regso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso"
+                ],
+                "value": "kommun",
+                "resources": [
+                    "ddf--entities--geo--regso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "deso"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo--deso",
+                    "ddf--entities--geo--kommun",
+                    "ddf--entities--geo--region",
+                    "ddf--entities--geo--regso",
+                    "ddf--entities--geo--rike"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo--kommun"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "region"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo--region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo--regso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "rike"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo--rike"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "tag"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--tag"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "tag"
+                ],
+                "value": "parent",
+                "resources": [
+                    "ddf--entities--tag"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "deso"
+                ],
+                "value": "region",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "region",
+                "resources": [
+                    "ddf--entities--geo--deso",
+                    "ddf--entities--geo--kommun",
+                    "ddf--entities--geo--regso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun"
+                ],
+                "value": "region",
+                "resources": [
+                    "ddf--entities--geo--kommun"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso"
+                ],
+                "value": "region",
+                "resources": [
+                    "ddf--entities--geo--regso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "deso"
+                ],
+                "value": "regso",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "regso",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "deso"
+                ],
+                "value": "rike",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "rike",
+                "resources": [
+                    "ddf--entities--geo--deso",
+                    "ddf--entities--geo--kommun",
+                    "ddf--entities--geo--region",
+                    "ddf--entities--geo--regso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun"
+                ],
+                "value": "rike",
+                "resources": [
+                    "ddf--entities--geo--kommun"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "region"
+                ],
+                "value": "rike",
+                "resources": [
+                    "ddf--entities--geo--region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso"
+                ],
+                "value": "rike",
+                "resources": [
+                    "ddf--entities--geo--regso"
+                ]
+            }
+        ],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_0_17",
+                "resources": [
+                    "ddf--datapoints--andel_0_17--by--kommun--year",
+                    "ddf--datapoints--andel_0_17--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_0_17",
+                "resources": [
+                    "ddf--datapoints--andel_0_17--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_0_17",
+                "resources": [
+                    "ddf--datapoints--andel_0_17--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_65_plus",
+                "resources": [
+                    "ddf--datapoints--andel_65_plus--by--kommun--year",
+                    "ddf--datapoints--andel_65_plus--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_65_plus",
+                "resources": [
+                    "ddf--datapoints--andel_65_plus--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_65_plus",
+                "resources": [
+                    "ddf--datapoints--andel_65_plus--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_adhd_lakemedel",
+                "resources": [
+                    "ddf--datapoints--andel_adhd_lakemedel--by--kommun--year",
+                    "ddf--datapoints--andel_adhd_lakemedel--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_adhd_lakemedel",
+                "resources": [
+                    "ddf--datapoints--andel_adhd_lakemedel--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_adhd_lakemedel",
+                "resources": [
+                    "ddf--datapoints--andel_adhd_lakemedel--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_adhd_lakemedel_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_adhd_lakemedel_kvinnor--by--kommun--year",
+                    "ddf--datapoints--andel_adhd_lakemedel_kvinnor--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_adhd_lakemedel_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_adhd_lakemedel_kvinnor--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_adhd_lakemedel_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_adhd_lakemedel_kvinnor--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_adhd_lakemedel_man",
+                "resources": [
+                    "ddf--datapoints--andel_adhd_lakemedel_man--by--kommun--year",
+                    "ddf--datapoints--andel_adhd_lakemedel_man--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_adhd_lakemedel_man",
+                "resources": [
+                    "ddf--datapoints--andel_adhd_lakemedel_man--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_adhd_lakemedel_man",
+                "resources": [
+                    "ddf--datapoints--andel_adhd_lakemedel_man--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_antidepressiv",
+                "resources": [
+                    "ddf--datapoints--andel_antidepressiv--by--kommun--year",
+                    "ddf--datapoints--andel_antidepressiv--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_antidepressiv",
+                "resources": [
+                    "ddf--datapoints--andel_antidepressiv--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_antidepressiv",
+                "resources": [
+                    "ddf--datapoints--andel_antidepressiv--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_antidepressiv_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_antidepressiv_kvinnor--by--kommun--year",
+                    "ddf--datapoints--andel_antidepressiv_kvinnor--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_antidepressiv_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_antidepressiv_kvinnor--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_antidepressiv_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_antidepressiv_kvinnor--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_antidepressiv_man",
+                "resources": [
+                    "ddf--datapoints--andel_antidepressiv_man--by--kommun--year",
+                    "ddf--datapoints--andel_antidepressiv_man--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_antidepressiv_man",
+                "resources": [
+                    "ddf--datapoints--andel_antidepressiv_man--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_antidepressiv_man",
+                "resources": [
+                    "ddf--datapoints--andel_antidepressiv_man--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_eftergymnasial_25_64",
+                "resources": [
+                    "ddf--datapoints--andel_eftergymnasial_25_64--by--kommun--year",
+                    "ddf--datapoints--andel_eftergymnasial_25_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_eftergymnasial_25_64",
+                "resources": [
+                    "ddf--datapoints--andel_eftergymnasial_25_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_eftergymnasial_25_64",
+                "resources": [
+                    "ddf--datapoints--andel_eftergymnasial_25_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_invand",
+                "resources": [
+                    "ddf--datapoints--andel_invand--by--kommun--year",
+                    "ddf--datapoints--andel_invand--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_invand",
+                "resources": [
+                    "ddf--datapoints--andel_invand--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_invand",
+                "resources": [
+                    "ddf--datapoints--andel_invand--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_invbak",
+                "resources": [
+                    "ddf--datapoints--andel_invbak--by--kommun--year",
+                    "ddf--datapoints--andel_invbak--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_invbak",
+                "resources": [
+                    "ddf--datapoints--andel_invbak--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_invbak",
+                "resources": [
+                    "ddf--datapoints--andel_invbak--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_kvinnor--by--kommun--year",
+                    "ddf--datapoints--andel_kvinnor--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_kvinnor--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_kvinnor--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_oppenvard",
+                "resources": [
+                    "ddf--datapoints--andel_oppenvard--by--kommun--year",
+                    "ddf--datapoints--andel_oppenvard--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_oppenvard",
+                "resources": [
+                    "ddf--datapoints--andel_oppenvard--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_oppenvard",
+                "resources": [
+                    "ddf--datapoints--andel_oppenvard--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_oppenvard_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_oppenvard_kvinnor--by--kommun--year",
+                    "ddf--datapoints--andel_oppenvard_kvinnor--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_oppenvard_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_oppenvard_kvinnor--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_oppenvard_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_oppenvard_kvinnor--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_oppenvard_man",
+                "resources": [
+                    "ddf--datapoints--andel_oppenvard_man--by--kommun--year",
+                    "ddf--datapoints--andel_oppenvard_man--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_oppenvard_man",
+                "resources": [
+                    "ddf--datapoints--andel_oppenvard_man--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_oppenvard_man",
+                "resources": [
+                    "ddf--datapoints--andel_oppenvard_man--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_slutenvard",
+                "resources": [
+                    "ddf--datapoints--andel_slutenvard--by--kommun--year",
+                    "ddf--datapoints--andel_slutenvard--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_slutenvard",
+                "resources": [
+                    "ddf--datapoints--andel_slutenvard--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_slutenvard",
+                "resources": [
+                    "ddf--datapoints--andel_slutenvard--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_slutenvard_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_slutenvard_kvinnor--by--kommun--year",
+                    "ddf--datapoints--andel_slutenvard_kvinnor--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_slutenvard_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_slutenvard_kvinnor--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_slutenvard_kvinnor",
+                "resources": [
+                    "ddf--datapoints--andel_slutenvard_kvinnor--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_slutenvard_man",
+                "resources": [
+                    "ddf--datapoints--andel_slutenvard_man--by--kommun--year",
+                    "ddf--datapoints--andel_slutenvard_man--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_slutenvard_man",
+                "resources": [
+                    "ddf--datapoints--andel_slutenvard_man--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_slutenvard_man",
+                "resources": [
+                    "ddf--datapoints--andel_slutenvard_man--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_sysselsatta_20_64",
+                "resources": [
+                    "ddf--datapoints--andel_sysselsatta_20_64--by--kommun--year",
+                    "ddf--datapoints--andel_sysselsatta_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_sysselsatta_20_64",
+                "resources": [
+                    "ddf--datapoints--andel_sysselsatta_20_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_sysselsatta_20_64",
+                "resources": [
+                    "ddf--datapoints--andel_sysselsatta_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "befolkning",
+                "resources": [
+                    "ddf--datapoints--befolkning--by--kommun--year",
+                    "ddf--datapoints--befolkning--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "befolkning",
+                "resources": [
+                    "ddf--datapoints--befolkning--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "befolkning",
+                "resources": [
+                    "ddf--datapoints--befolkning--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "dodlighet",
+                "resources": [
+                    "ddf--datapoints--dodlighet--by--kommun--year",
+                    "ddf--datapoints--dodlighet--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "dodlighet",
+                "resources": [
+                    "ddf--datapoints--dodlighet--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "dodlighet",
+                "resources": [
+                    "ddf--datapoints--dodlighet--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "medel_dispink_real2024_20_64",
+                "resources": [
+                    "ddf--datapoints--medel_dispink_real2024_20_64--by--kommun--year",
+                    "ddf--datapoints--medel_dispink_real2024_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "medel_dispink_real2024_20_64",
+                "resources": [
+                    "ddf--datapoints--medel_dispink_real2024_20_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "medel_dispink_real2024_20_64",
+                "resources": [
+                    "ddf--datapoints--medel_dispink_real2024_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "medel_inkomst_real2024_20_64",
+                "resources": [
+                    "ddf--datapoints--medel_inkomst_real2024_20_64--by--kommun--year",
+                    "ddf--datapoints--medel_inkomst_real2024_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "medel_inkomst_real2024_20_64",
+                "resources": [
+                    "ddf--datapoints--medel_inkomst_real2024_20_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "medel_inkomst_real2024_20_64",
+                "resources": [
+                    "ddf--datapoints--medel_inkomst_real2024_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "medelalder",
+                "resources": [
+                    "ddf--datapoints--medelalder--by--kommun--year",
+                    "ddf--datapoints--medelalder--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "medelalder",
+                "resources": [
+                    "ddf--datapoints--medelalder--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "medelalder",
+                "resources": [
+                    "ddf--datapoints--medelalder--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "median_dispink_real2024_20_64",
+                "resources": [
+                    "ddf--datapoints--median_dispink_real2024_20_64--by--kommun--year",
+                    "ddf--datapoints--median_dispink_real2024_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "median_dispink_real2024_20_64",
+                "resources": [
+                    "ddf--datapoints--median_dispink_real2024_20_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "median_dispink_real2024_20_64",
+                "resources": [
+                    "ddf--datapoints--median_dispink_real2024_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "median_inkomst_real2024_20_64",
+                "resources": [
+                    "ddf--datapoints--median_inkomst_real2024_20_64--by--kommun--year",
+                    "ddf--datapoints--median_inkomst_real2024_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "median_inkomst_real2024_20_64",
+                "resources": [
+                    "ddf--datapoints--median_inkomst_real2024_20_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "median_inkomst_real2024_20_64",
+                "resources": [
+                    "ddf--datapoints--median_inkomst_real2024_20_64--by--regso--year"
+                ]
+            }
+        ],
+        "synonyms": []
+    }
+}
