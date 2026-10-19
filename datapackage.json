@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2026-08-31T14:53:18.625485+00:00",
+    "created": "2026-10-19T15:14:13.772206+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -1140,6 +1140,27 @@
                     },
                     {
                         "name": "median_inkomst_real2024_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mobility_rate--by--regso--year",
+            "path": "ddf--datapoints--mobility_rate--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mobility_rate"
                     }
                 ],
                 "primaryKey": [
@@ -2527,6 +2548,26 @@
                 "value": "median_inkomst_real2024_20_64",
                 "resources": [
                     "ddf--datapoints--median_inkomst_real2024_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "mobility_rate",
+                "resources": [
+                    "ddf--datapoints--mobility_rate--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "mobility_rate",
+                "resources": [
+                    "ddf--datapoints--mobility_rate--by--regso--year"
                 ]
             }
         ],
