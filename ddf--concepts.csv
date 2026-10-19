@@ -46,3 +46,4 @@ median_dispink_real2024_20_64,measure,,"Median disponibel inkomst (20-64 år, tk
 andel_eftergymnasial_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel invånare mellan 25-64 år med eftergymnasial utbildning.,ibf_socio,,,Eftergymnasial utbildning,Eftergymnasial utbildning,,share
 dodlighet,measure,,Dödlighet,Andel invånare vid slutet av föregående år som avlider under kalenderåret.,ibf_health,,,Dödlighet,Dödlighet,,share
 mobility_rate,measure,,Mobility rate from mobile phones,mobility,ibf_health,,,mobility,mobility,,share
+random,measure,,random number,random,ibf_health,,,random,random,,share
